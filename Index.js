@@ -13,8 +13,8 @@ cargoHold.forEach(el => {
 console.log(" ");
 
 console.log("Срочная разгрузка");
-let removItem = cargoHold.pop();
-console.log(`Разгружен последний отсек: ${removItem}`);
+let removEl = cargoHold.pop();
+console.log(`Разгружен последний отсек: ${removEl}`);
 console.log("Текущий груз:", cargoHold);
 console.log(" ");
 
