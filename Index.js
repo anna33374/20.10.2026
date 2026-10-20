@@ -5,10 +5,10 @@ console.log(" ");
 
 console.log("Проверка Безопасности:");
 cargoHold.forEach(el => {
-    console.log(`Внимание: груз ${el} проверен`);
-    if (el === "Кристаллы") {
-        console.log("Внимание!!! Обнаружен ценный груз");
+    if(el == 'Кристаллы'){
+        console.log('⚠️ Внимание! Обнаружен ценный груз!')
     }
+    console.log(`Внимание: груз ${el} проверен`)
 });
 console.log(" ");
 
